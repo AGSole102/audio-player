@@ -1,10 +1,10 @@
 let images = [
-    { src: 'assets/tyler.jpg', comment: 'Tyler, The Creator – Hot Wind Blows', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/hot_wind.mp3' },
-    { src: 'assets/alberto_balsalm.jpg', comment: 'Aphex Twin – Alberto Balsalm', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/alberto_balsalm.mp3' },
-    { src: 'assets/weeknd_playboi_popular.jpg', comment: 'The Weeknd, Playboi Carti – Popular', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/popular.mp3' },
-    { src: 'assets/d4vd.jpg', comment: 'd4vd – Feel It', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/feel_it.mp3' },
-    { src: 'assets/tame_impala.jpg', comment: 'Tame Impala – Borderline', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/borderline.mp3' },
-    { src: 'assets/brent.jpg', comment: 'Brent Faiyaz, Dahi, Tyler, The Creator – GRAVITY', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/gravity.mp3' }
+    { src: 'assets/tyler.jpg', comment: 'Tyler, The Creator – Hot Wind Blows', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/hot_wind.mp3?raw=true' },
+    { src: 'assets/alberto_balsalm.jpg', comment: 'Aphex Twin – Alberto Balsalm', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/alberto_balsalm.mp3?raw=true' },
+    { src: 'assets/weeknd_playboi_popular.jpg', comment: 'The Weeknd, Playboi Carti – Popular', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/popular.mp3?raw=true' },
+    { src: 'assets/d4vd.jpg', comment: 'd4vd – Feel It', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/feel_it.mp3?raw=true' },
+    { src: 'assets/tame_impala.jpg', comment: 'Tame Impala – Borderline', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/borderline.mp3?raw=true' },
+    { src: 'assets/brent.jpg', comment: 'Brent Faiyaz, Dahi, Tyler, The Creator – GRAVITY', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/gravity.mp3?raw=true' }
 ];
 
 let currentIndex = 0;
