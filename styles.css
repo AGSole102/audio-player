@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: url('assets/back.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#card {
+	background-color: rgb(38, 42, 43, 0.7);
+	border-radius: 15px;
+	height: 350px;
+	width: 1500px;
+	padding: 60px 20px;
+	margin-top: 120px;
+	margin-left: 120px;
+	margin-right: 120px;
+	display: flex;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+#image-container {
+    position: relative;
+	box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 300px;
+	border-radius: 20px;
+	width: 300px;
+	margin-left: 50px;
+}
+
+#image-comment {
+    margin-top: 45px;
+    color: white;
+    text-shadow: 2px 2px 10px #000000;
+    text-align: center;
+    width: 400px;
+}
+
+#prev {
+	background-image: url('assets/rewind.png');
+	background-size: 65px;
+	padding: 33px;
+	background-repeat: no-repeat;
+	border: none;
+	background-color: rgb(0, 0, 0, 0);
+	cursor: pointer;
+}
+
+#prev:active {
+	transform: scale(0.9);
+}
+
+#next {
+	background-image: url('assets/forward.png');
+	background-size: 65px;
+	padding: 33px;
+	background-repeat: no-repeat;
+	border: none;
+	background-color: rgb(0, 0, 0, 0);
+	cursor: pointer;
+}
+
+#next:active {
+	transform: scale(0.9);
+}
+
+canvas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+}
+
+#current-image {
+	width: 300px;
+	height: 300px;
+	border-radius: 15px;
+}
+
+#player {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	color: white;
+	text-shadow: 2px 2px 10px #000000;
+	margin-left: 200px;
+}
+
+#player button {
+    margin: 0 80px;
+    margin-top: 150px;
+}
+
+#download {
+	border: none;
+	background-color: rgb(0, 0, 0, 0);
+	cursor: pointer;
+}
+
+#downloadImg {
+	width: 60px;
+	height: 60px;
+}
+
+#download:active {
+	transform: scale(0.9);
+}
+
+#play-pause {
+	border: none;
+	cursor: pointer;
+	background-color: rgb(0, 0, 0, 0);
+	
+}
+
+#play-pause:active {
+	transform: scale(0.9);
+}
+
+#play-pause img {
+	width: 55px;
+	height: 55px;
+}
+
+#slider {
+	display: flex;
+	position: absolute;
+	margin-left: 540px;
+}
+
+span {
+	color: white;
+	margin-top: 149px;
+	text-shadow: 2px 2px 10px #000000;
+}
+
+#current-time {
+	margin-right: 10px;
+}
+
+#duration {
+	margin-left: 10px;
+}
+
+#seek-bar {
+	width: 700px;
+	margin-top: 150px;
+	cursor: pointer;
+}
