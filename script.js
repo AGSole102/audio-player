@@ -65,6 +65,7 @@ function updateImage() {
     audioElement.src = images[currentIndex].audio;
     if (isSoundEnabled) {
     	audioElement.play();
+	console.log('ok');
     }
     
     updateDownloadLink();
