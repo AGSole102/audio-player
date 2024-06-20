@@ -1,5 +1,5 @@
 let images = [
-    { src: 'assets/tyler.jpg', comment: 'Tyler, The Creator – Hot Wind Blows', audio: 'https://raw.githubusercontent.com/AGSole102/audio-player/main/audio/hot_wind.mp3' },
+    { src: 'assets/tyler.jpg', comment: 'Tyler, The Creator – Hot Wind Blows', audio: './audio/hot_wind.mp3' },
     { src: 'assets/alberto_balsalm.jpg', comment: 'Aphex Twin – Alberto Balsalm', audio: './audio/alberto_balsalm.mp3' },
     { src: 'assets/weeknd_playboi_popular.jpg', comment: 'The Weeknd, Playboi Carti – Popular', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/popular.mp3' },
     { src: 'assets/d4vd.jpg', comment: 'd4vd – Feel It', audio: 'https://github.com/AGSole102/audio-player/raw/main/audio/feel_it.mp3' },
